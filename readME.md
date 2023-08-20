@@ -22,3 +22,7 @@ Recommend PHP 7.4 or greater, sqlite3, [SQLiteStudio](https://sqlitestudio.pl/)
 
 ### 5. Open in the browser:
 `http://127.0.1.1:8090`
+
+### 6. Login details:
+`Login: admin`
+`Password:admin`
