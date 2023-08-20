@@ -1,0 +1,157 @@
+# Translation of Plugins - SQLite Database Integration - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - SQLite Database Integration - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-05 15:29:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - SQLite Database Integration - Development (trunk)\n"
+
+#: admin-page.php:56
+msgid "We detected that the PDO SQLite driver is missing from your server (the pdo_sqlite extension is not loaded). Please make sure that SQLite is enabled in your PHP installation before proceeding."
+msgstr "Обнаружено отсутствие драйвера PDO SQLite на вашем сервере (расширение pdo_sqlite не загружено). Пожалуйста убедитесь, что SQLite включен в вашей версии PHP перед началом."
+
+#. translators: %s: db.php drop-in path
+#: admin-page.php:75
+msgid "Update %s file"
+msgstr "Обновить %s файл"
+
+#. translators: %s: db.php drop-in path
+#: admin-page.php:65
+msgid "An older %s file was detected. Please click the button below to update the file."
+msgstr "Была обнаружена старая версия файла %s. Пожалуйста нажмите  кнопку ниже для его обновления."
+
+#. Description of the plugin
+msgid "SQLite database driver drop-in."
+msgstr "Замена драйвера баз данных на SQLite"
+
+#: admin-page.php:137
+msgid "Database: MySQL"
+msgstr "База данных: Mysql"
+
+#: admin-page.php:135
+msgid "Database: MariaDB"
+msgstr "База данных: MariaDB"
+
+#: admin-page.php:133
+msgid "Database: SQLite"
+msgstr "База данных: SQLite"
+
+#: wp-includes/sqlite/install-functions.php:209
+msgid "The password you chose during installation."
+msgstr "Пароль, выбранный вами при установке."
+
+#: wp-includes/sqlite/install-functions.php:192
+msgid "User already exists. Password inherited."
+msgstr "Пользователь уже существует. Пароль унаследован."
+
+#: wp-includes/sqlite/install-functions.php:188
+msgid "Your chosen password."
+msgstr "Выбранный вами пароль."
+
+#: wp-includes/sqlite/install-functions.php:181
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
+msgstr "<strong><em>Запомните этот пароль!</em></strong> Он абсолютно <em>случаен</em> и создан специально для вас."
+
+#: health-check.php:44
+msgid "Database size"
+msgstr "Размер базы данных"
+
+#: health-check.php:38
+msgid "Database file"
+msgstr "Файл базы данных"
+
+#: health-check.php:33
+msgid "SQLite version"
+msgstr "Версия SQLite"
+
+#: health-check.php:27
+msgid "Database type"
+msgstr "Тип базы данных"
+
+#: health-check.php:22
+msgid "Undefined"
+msgstr "Не определено"
+
+#: admin-page.php:113
+msgid "Install SQLite database"
+msgstr "Установить базу данных SQLite"
+
+#: admin-page.php:111
+msgid "By clicking the button below, you will be redirected to the WordPress installation screen to setup your new database"
+msgstr "Нажимая кнопку ниже вы будете перенаправлены на страницу установки wordpress для настройки вашей новой базы данных"
+
+#: admin-page.php:110
+msgid "This plugin will switch to a separate database and install WordPress in it. You will need to reconfigure your site, and start with a fresh site. Disabling the plugin you will get back to your previous MySQL database, with all your previous data intact."
+msgstr "Этот модуль переключится на другую базу данных и установит WordPress в нее. Вам нужно поменять настройки вашего сайта и начать со свежего сайта. Отключение дополнения вернет сайт к предыдущей MySQL базе данных со всеми старыми данными."
+
+#: admin-page.php:109
+msgid "Important note"
+msgstr "Важное примечание"
+
+#: admin-page.php:107
+msgid "All checks completed successfully, your site can use an SQLite database. You can proceed with the installation."
+msgstr "Все проверки пройдены успешно, ваш сайт может использовать базу данных SQLite. Вы можете выполнить установку."
+
+#. translators: %s: db.php drop-in path
+#: admin-page.php:99
+msgid "The SQLite plugin cannot be activated because the %s directory is not writable."
+msgstr "Модуль SQLite не может быть активирован, так как каталог %s недоступен для записи."
+
+#. translators: %s: db.php drop-in path
+#: admin-page.php:86
+msgid "The SQLite plugin cannot be activated because a different %s drop-in already exists."
+msgstr "Невозможно активировать модуль SQLite потому, что другая замена %s уже применена."
+
+#: admin-page.php:52
+msgid "We detected that the SQLite3 class is missing from your server. Please make sure that SQLite is enabled in your PHP installation before proceeding."
+msgstr "Обнаружено отсутствие класса SQLite3 на вашем сервере. Убедитесь, что SQLite включен в вашем PHP перед продолжением."
+
+#. translators: 1: Admin URL to deactivate the module, 2: db.php drop-in path,
+#: admin-page.php:43
+msgid "The SQLite drop-in is enabled. To disable it and get back to your previous, MySQL database, you can <a href=\"%1$s\">deactivate the plugin</a>. Alternatively, you can manually delete the %2$s file from your server."
+msgstr "SQLite включен. Чтобы его выключить и вернуться к предыдущей базе данных MySQL вы можете <a href=\"%1$s\"> деактивировать модуль</a>. Или можете вручную удалить %2$s файл с вашего сервера."
+
+#: admin-page.php:37
+msgid "SQLite is enabled."
+msgstr "SQLite включен"
+
+#: admin-page.php:31
+msgid "SQLite integration."
+msgstr "Интеграция SQLite."
+
+#: admin-page.php:16 admin-page.php:17
+msgid "SQLite integration"
+msgstr "Интеграция SQLite"
+
+#. translators: 1: db.php drop-in path, 2: Admin URL to deactivate the module
+#: admin-notices.php:67
+msgid "The SQLite Integration plugin is active, but the %1$s file is missing. Please <a href=\"%2$s\">deactivate the plugin</a> and re-activate it to try again."
+msgstr "Модуль интеграции SQLite активен, но файл %1$s отсутствует. Пожалуйста, <a href=\"%2$s\">деактивируйте модуль</a> и повторно активируйте его, чтобы повторить попытку."
+
+#: admin-notices.php:58
+msgid "The SQLite Integration plugin is active, but the wp-content/db.php file is missing and the wp-content directory is not writable. Please ensure the wp-content folder is writable, then deactivate the plugin and try again."
+msgstr ""
+"Модуль интеграции SQLite активен, но файл wp-content/db.php отсутствует и в директорию wp-content запрещена запись.\n"
+"Убедитесь, что в директорию wp-content разрешена запись, после чего деактивируйте модуль и попробуйте снова."
+
+#. translators: 1: SQLITE_DB_DROPIN_VERSION constant, 2: db.php drop-in path
+#: admin-notices.php:42
+msgid "The SQLite Integration module is active, but the %1$s constant is missing. It appears you already have another %2$s file present on your site. "
+msgstr "Модуль интеграции SQLite активен, но отсутствует константа %1$s. Похоже, на вашем сайте уже есть еще один файл %2$s. "
+
+#: admin-notices.php:26
+msgid "The SQLite Integration plugin is active, but the SQLite3 class is missing from your server. Please make sure that SQLite is enabled in your PHP installation."
+msgstr "Плагин SQLite Integration активен, но класс SQLite3 отсутствует на вашем сервере. Пожалуйста, убедитесь, что SQLite включен в вашей установке PHP."
+
+#. Author of the plugin
+msgid "WordPress Performance Team"
+msgstr "WordPress Performance Team"
+
+#. Plugin Name of the plugin
+msgid "SQLite Database Integration"
+msgstr "SQLite Database Integration"
