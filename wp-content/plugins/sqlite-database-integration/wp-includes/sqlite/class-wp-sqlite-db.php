@@ -16,8 +16,6 @@ class WP_SQLite_DB extends wpdb {
 	/**
 	 * Database Handle
 	 *
-	 * @access protected
-	 *
 	 * @var WP_SQLite_Translator
 	 */
 	protected $dbh;
@@ -105,7 +103,7 @@ class WP_SQLite_DB extends wpdb {
 	 *
 	 * @return string escaped
 	 */
-	function _real_escape( $str ) {
+	public function _real_escape( $str ) {
 		return addslashes( $str );
 	}
 
@@ -280,7 +278,7 @@ class WP_SQLite_DB extends wpdb {
 		}
 
 		$this->result = $this->dbh->query( $query );
-		$this->num_queries++;
+		++$this->num_queries;
 
 		if ( defined( 'SAVEQUERIES' ) && SAVEQUERIES ) {
 			$this->queries[] = array( $query, $this->timer_stop(), $this->get_caller() );
@@ -315,7 +313,6 @@ class WP_SQLite_DB extends wpdb {
 	 * This overrides wpdb::load_col_info(), which uses a mysql function.
 	 *
 	 * @see    wpdb::load_col_info()
-	 * @access protected
 	 */
 	protected function load_col_info() {
 		if ( $this->col_info ) {
@@ -352,7 +349,7 @@ class WP_SQLite_DB extends wpdb {
 	 * @see wpdb::db_version()
 	 */
 	public function db_version() {
-		return '5.5';
+		return '8.0';
 	}
 
 	/**

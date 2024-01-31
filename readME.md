@@ -23,6 +23,24 @@ Recommend PHP 7.4 or greater, sqlite3, [SQLiteStudio](https://sqlitestudio.pl/)
 ### 5. Open in the browser:
 `http://127.0.1.1:8090`
 
-### 6. Login details:
+### 6. Admin panel:
+`http://127.0.1.1:8090/wp-admin/`
+
+Important
+`If you skip the slash at the end of the path, there may be a path error later.`
+
+### 7. Login details:
 `Login: admin`
 `Password:admin`
+
+---
+
+### Update on February 1, 2024
+
+Updated:
+1. Wordpress to version 6.4.3
+2. Integration with SQLite database version 2.1.6
+3. Twenty Twenty-One. Upgrade to version 2.1.
+4. Twenty Twenty Three. Upgrade to 1.3.
+5. Twenty Twenty Two. Upgrade to 1.6.
+6. Translations.

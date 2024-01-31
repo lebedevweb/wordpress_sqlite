@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Three package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-25 15:40:19+0000\n"
+"PO-Revision-Date: 2023-09-18 11:15:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -89,17 +89,17 @@ msgstr "Шепот"
 #: styles/sherbet.json
 msgctxt "Gradient name"
 msgid "Tertiary to Secondary to Primary Fixed"
-msgstr "Третичный к вторичному до фиксированного первичного"
+msgstr "От третичного к вторичному до фиксированного первичного"
 
 #: styles/sherbet.json
 msgctxt "Gradient name"
 msgid "Primary to Secondary to Tertiary Fixed"
-msgstr "Первичный к вторичному до фиксированного третичного"
+msgstr "От первичного к вторичному до фиксированного третичного"
 
 #: styles/sherbet.json
 msgctxt "Gradient name"
 msgid "Primary to Secondary to Tertiary"
-msgstr "Первичный к вторичному до третичного"
+msgstr "От первичного к вторичному до третичного"
 
 #: styles/sherbet.json
 msgctxt "Style variation name"
@@ -149,22 +149,22 @@ msgstr "Точки"
 #: styles/pilgrimage.json
 msgctxt "Gradient name"
 msgid "Base to Primary"
-msgstr "Основа к первичному"
+msgstr "От основного к первичному"
 
 #: styles/pilgrimage.json
 msgctxt "Gradient name"
 msgid "Tertiary to Secondary"
-msgstr "Третичный к вторичному"
+msgstr "От третичного к вторичному"
 
 #: styles/pilgrimage.json
 msgctxt "Gradient name"
 msgid "Secondary to Primary"
-msgstr "Вторичный к первичному"
+msgstr "От вторичного к первичному"
 
 #: styles/pilgrimage.json
 msgctxt "Gradient name"
 msgid "Primary to Secondary"
-msgstr "Первичный к вторичному"
+msgstr "От первичного к вторичному"
 
 #: styles/pilgrimage.json
 msgctxt "Style variation name"
@@ -295,22 +295,22 @@ msgstr "Основа"
 #: styles/aubergine.json
 msgctxt "Gradient name"
 msgid "Primary to Tertiary"
-msgstr "Первичный к третичному"
+msgstr "От первичного к третичному"
 
 #: styles/aubergine.json styles/pilgrimage.json
 msgctxt "Gradient name"
 msgid "Tertiary to Primary"
-msgstr "Третичный к первичному"
+msgstr "От третичного к первичному"
 
 #: styles/aubergine.json
 msgctxt "Gradient name"
 msgid "Base to Secondary to Base"
-msgstr "Основной к вторичному до основного"
+msgstr "От основного к вторичному до основного"
 
 #: styles/aubergine.json
 msgctxt "Gradient name"
 msgid "Secondary to Base"
-msgstr "Вторичный к основному"
+msgstr "От вторичного к основному"
 
 #: styles/aubergine.json
 msgctxt "Style variation name"
